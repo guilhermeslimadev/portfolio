@@ -4,27 +4,23 @@ import eu from '../assets/f2032d0f-7266-4123-8de5-189f7b6afe4d.jpg'
 
 export default function About() {
     return (
-        <section className=" h-screen flex flex-col items-center gap-6 xl:flex-row-reverse xl:justify-start xl:w-[1000px] 2xl:w-[1336px]">
-                <img src={eu} alt="" className="w-52 h-52 lg:w-72 lg:h-72 xl:h-72 xl:w-[400px] rounded-md rotate-3" />
-            <div className="w-screen ">
-                <div className="flex flex-col text-center">
-                    <h2 className="text-3xl  font-semibold bg-gradient-to-r from-indigo-600 via-purple-900 to-violet-950 bg-clip-text inline-block text-transparent">Sobre mim</h2>
-                    <p className="text-md text-white/50 font-normal m-3 pr-3 lg:pl-36 lg:pr-36 xl:pr-52 xl:pl-52 2xl:text-lg">
-                    Olá! me chamo Guilherme Lima, sou um desenvolvedor Front-End apaixonado por criar experiências digitais incríveis e interativas. Com uma sólida formação em HTML, CSS, JavaScript e frameworks modernos como React meu foco é sempre entregar interfaces responsivas, intuitivas e com ótimo desempenho.
-                    </p>
-                <div className="flex items-center justify-center gap-3">
-                    <a href="https://github.com/guilhermeslimadev" target="blank" className="p-3 bg-white/5 rounded-md text-white hover:bg-violet-900/20 transition-all border-white/10 border hover:border-white/10 hover:rotate-12">
+            <section className="w-screen h-[500px] bg-zinc-900/50 flex flex-col-reverse lg:flex-row justify-center items-center gap-3 lg:gap-6 xl:gap-24">
+         <div className="flex lg:w-[450px] lg:items-start lg:text-start flex-col items-center justify-center text-center gap-3 p-3">
+            <h2 className="text-xl xl:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-violet-600 font-bold">Sobre mim</h2>
+            <p className="font-semibold text-md text-white/30">Olá! me chamo Guilherme Lima, sou um desenvolvedor Front-End apaixonado por criar experiências digitais incríveis e interativas. Com uma sólida formação em HTML, CSS, JavaScript e frameworks modernos como React meu foco é sempre entregar interfaces responsivas, intuitivas e com ótimo desempenho.</p>
+            <div className="w-full flex gap-3 justify-center lg:justify-start">
+                <a href="https://github.com/guilhermeslimadev" target="blank" className="bg-transparent p-4 border rounded-md text-white font-bold transition-all ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:to-violet-600 hover:border-none opacity-10 hover:opacity-100 hover:scale-105 duration-500">
                     <FiGithub />
-                    </a>
-                    <a href="https://www.linkedin.com/in/guilherme-da-silva-lima-356668348/" target="blank" className="p-3 bg-white/5 rounded-md text-white hover:bg-violet-900/20 transition-all border-white/10 border hover:border-white/10 hover:rotate-12">
+                </a>
+                <a href="https://www.linkedin.com/in/guilherme-da-silva-lima-356668348/" target="blank" className="bg-transparent p-4 border rounded-md text-white font-bold transition-all ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:to-violet-600 hover:border-none opacity-10 hover:opacity-100 hover:scale-105 duration-500">
                     <FiLinkedin />
-                    </a>
-                    <a href="https://wa.me/5511966144965" target="blank" className="p-3 bg-white/5 rounded-md text-white hover:bg-violet-900/20 transition-all border-white/10 border hover:border-white/10 hover:rotate-12">
+                </a>
+                <a href="https://wa.me/5511966144965" target="blank" className="bg-transparent p-4 border rounded-md text-white font-bold transition-all ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:to-violet-600 hover:border-none opacity-10 hover:opacity-100 hover:scale-105 duration-500">
                     <FaWhatsapp />
-                    </a>
-                </div>
-                </div>  
+                </a>
             </div>
+         </div>
+         <img src={eu} className="w-32 h-32 lg:w-72 lg:h-72 rounded-md rotate-3"  alt="" />
         </section>
     )
 }
