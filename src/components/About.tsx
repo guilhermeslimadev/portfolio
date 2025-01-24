@@ -20,7 +20,7 @@ export default function About() {
                 </a>
             </div>
          </div>
-         <img src={eu} className="w-32 h-32 lg:w-72 lg:h-72 rounded-full rotate-3"  alt="" />
+         <img src={eu} className="w-32 h-32 lg:w-72 lg:h-72 rounded-full object-cover"  alt="" />
         </section>
     )
 }
