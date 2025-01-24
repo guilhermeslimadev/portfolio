@@ -1,6 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
-import eu from '../assets/IMG_0384.jpg'
+import eu from '../assets/IMG_0387.jpg'
 
 export default function About() {
     return (
