@@ -1,6 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
-import eu from '../assets/f2032d0f-7266-4123-8de5-189f7b6afe4d.jpg'
+import eu from '../assets/IMG_0384.jpg'
 
 export default function About() {
     return (
@@ -20,7 +20,7 @@ export default function About() {
                 </a>
             </div>
          </div>
-         <img src={eu} className="w-32 h-32 lg:w-72 lg:h-72 rounded-md rotate-3"  alt="" />
+         <img src={eu} className="w-32 h-32 lg:w-72 lg:h-72 rounded-full rotate-3"  alt="" />
         </section>
     )
 }
